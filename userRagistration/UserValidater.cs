@@ -25,5 +25,10 @@ namespace userRagistration
             return Regex.IsMatch(email, EMAIL_ADDRESS_PATTERN);
         }
 
+        public Boolean validateMobileNo(String mobileno)
+        {
+            return Regex.IsMatch(mobileno, MOBILE_NO_PATTERN);
+        }
+
     }
 }

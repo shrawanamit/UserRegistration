@@ -33,5 +33,14 @@ namespace NUnitTestUser
             Boolean result = validater.validateEmailId("amitkumar06111@gmail.com");
             Assert.AreEqual(true, result);
         }
+
+        [Test]
+        public void givenMobileNo_WhenProper_ShouldReturnTrue()
+        {
+            UserValidater validater = new UserValidater();
+            Boolean result = validater.validateMobileNo("91 8390202340");
+            Assert.AreEqual(true, result);
+        }
+
     }
 }
