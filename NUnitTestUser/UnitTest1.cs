@@ -25,5 +25,13 @@ namespace NUnitTestUser
             Boolean result = validater.validateLastName("Kumar");
             Assert.AreEqual(true, result);
         }
+
+        [Test]
+        public void givenEmail_WhenProper_ReturnTrue()
+        {
+            UserValidater validater = new UserValidater();
+            Boolean result = validater.validateEmailId("amitkumar06111@gmail.com");
+            Assert.AreEqual(true, result);
+        }
     }
 }
