@@ -6,13 +6,15 @@ namespace userRagistration
     public class UserValidater
     {
         private static string FIRST_NAME_PATTERN = "^[A-Z]{1}[a-z]{3}$";
-        public bool validateFirstName(string firstname)
+        private static string LAST_NAME_PATTERN = "^[A-Z]{1}[a-z]{3}$";
+        public Boolean validateFirstName(string firstname)
         {
-            Regex re = new Regex(FIRST_NAME_PATTERN);
-            if (re.IsMatch(firstname))
-                return (true);
-            else
-                return (false);
+            return Regex.IsMatch( firstname, FIRST_NAME_PATTERN);
+        }
+
+        public Boolean validateLastName(string lastname)
+        {
+            return Regex.IsMatch(lastname, LAST_NAME_PATTERN);
         }
     }
 }

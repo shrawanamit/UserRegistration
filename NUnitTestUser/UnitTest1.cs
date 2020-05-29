@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using userRagistration;
+using System;
 
 namespace NUnitTestUser
 {
@@ -14,7 +15,14 @@ namespace NUnitTestUser
         public void givenFirstName_WhenProper_ReturnTrue()
         {
             UserValidater validater = new UserValidater();
-            bool result = validater.validateFirstName("Amit");
+            Boolean result = validater.validateFirstName("Amit");
+            Assert.AreEqual(true, result);
+        }
+        [Test]
+        public void givenLasttName_WhenProper_ReturnTrue()
+        {
+            UserValidater validater = new UserValidater();
+            Boolean result = validater.validateLastName("Kumar");
             Assert.AreEqual(true, result);
         }
     }
