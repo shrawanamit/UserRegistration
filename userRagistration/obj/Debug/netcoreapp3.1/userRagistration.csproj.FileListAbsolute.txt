@@ -1,0 +1,13 @@
+G:\vs\userRagistration\userRagistration\obj\Debug\netcoreapp3.1\userRagistration.csprojAssemblyReference.cache
+G:\vs\userRagistration\userRagistration\obj\Debug\netcoreapp3.1\userRagistration.AssemblyInfoInputs.cache
+G:\vs\userRagistration\userRagistration\obj\Debug\netcoreapp3.1\userRagistration.AssemblyInfo.cs
+G:\vs\userRagistration\userRagistration\obj\Debug\netcoreapp3.1\userRagistration.csproj.CoreCompileInputs.cache
+G:\vs\userRagistration\userRagistration\bin\Debug\netcoreapp3.1\userRagistration.exe
+G:\vs\userRagistration\userRagistration\bin\Debug\netcoreapp3.1\userRagistration.deps.json
+G:\vs\userRagistration\userRagistration\bin\Debug\netcoreapp3.1\userRagistration.runtimeconfig.json
+G:\vs\userRagistration\userRagistration\bin\Debug\netcoreapp3.1\userRagistration.runtimeconfig.dev.json
+G:\vs\userRagistration\userRagistration\bin\Debug\netcoreapp3.1\userRagistration.dll
+G:\vs\userRagistration\userRagistration\bin\Debug\netcoreapp3.1\userRagistration.pdb
+G:\vs\userRagistration\userRagistration\obj\Debug\netcoreapp3.1\userRagistration.dll
+G:\vs\userRagistration\userRagistration\obj\Debug\netcoreapp3.1\userRagistration.pdb
+G:\vs\userRagistration\userRagistration\obj\Debug\netcoreapp3.1\userRagistration.genruntimeconfig.cache
