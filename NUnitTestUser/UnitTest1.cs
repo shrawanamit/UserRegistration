@@ -18,6 +18,7 @@ namespace NUnitTestUser
             Boolean result = validater.validateFirstName("Amit");
             Assert.AreEqual(true, result);
         }
+       
         [Test]
         public void givenLasttName_WhenProper_ReturnTrue()
         {
@@ -41,6 +42,13 @@ namespace NUnitTestUser
             Boolean result = validater.validateMobileNo("91 8390202340");
             Assert.AreEqual(true, result);
         }
-
+        
+        [Test]
+        public void givenPassword_WhenProper_ShouldReturnTrue()
+        {
+            UserValidater validater = new UserValidater();
+            Boolean result = validater.validatePassword("Amit@123");
+            Assert.AreEqual(true, result);
+        }
     }
 }

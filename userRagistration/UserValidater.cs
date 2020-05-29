@@ -6,10 +6,10 @@ namespace userRagistration
     public class UserValidater
     {
         private static readonly string FIRST_NAME_PATTERN = "^[A-Z]{1}[a-z]{3}$";
-        private static string LAST_NAME_PATTERN = "^[A-Z]{1}[a-z]{3}$";
-        private static string EMAIL_ADDRESS_PATTERN = "^[a-zA-Z0-9]*+([._-])?[a-zA-Z0-9]*@[a-zA-Z]+.[a-zA-Z]{2,4}(.[a-zA-Z]{2})*$";
-        private static string MOBILE_NO_PATTERN = "^[1-9]{2}[[:space:]]{1}[0-9]{10}$";
-        private static string PASSWORD_PATTERN = "^[A-Za-z0-9]*[@#$%^&*][0-9a-zA-Z]*$";
+        private static readonly string LAST_NAME_PATTERN = "^[A-Z]{1}[a-z]{3}$";
+        private static readonly string EMAIL_ADDRESS_PATTERN = "^[a-zA-Z0-9]*+([._-])?[a-zA-Z0-9]*@[a-zA-Z]+.[a-zA-Z]{2,4}(.[a-zA-Z]{2})*$";
+        private static readonly string MOBILE_NO_PATTERN = "^[1-9]{2}[[:space:]]{1}[0-9]{10}$";
+        private static readonly string PASSWORD_PATTERN = "^[A-Za-z0-9]*[@#$%^&*][0-9a-zA-Z]*$";
         public Boolean validateFirstName(string firstname)
         {
             return Regex.IsMatch( firstname, FIRST_NAME_PATTERN);
@@ -28,6 +28,11 @@ namespace userRagistration
         public Boolean validateMobileNo(String mobileno)
         {
             return Regex.IsMatch(mobileno, MOBILE_NO_PATTERN);
+        }
+       
+        public Boolean validatePassword(String password)
+        {
+            return Regex.IsMatch(password, PASSWORD_PATTERN);
         }
 
     }
